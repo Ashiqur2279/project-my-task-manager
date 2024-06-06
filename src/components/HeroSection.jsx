@@ -20,7 +20,7 @@ const HeroSection = () => {
   }, [paragraphs.length]);
 
   return (
-    <div className="bg-gray-100 flex py-4 px-8 my-4 gap-2">
+    <div className="bg-gray-200 border rounded-sm border-orange-500 flex py-4 px-8 my-4 gap-2">
       <div className="flex-1">
         <img
           className="h-full w-full object-cover"
